@@ -27,11 +27,12 @@ Database: Supabase PostgreSQL
 Authentication: Supabase Auth
 
 📂 Database Schema (Supabase Example)
+
 books Table
-Column	Type	Description
-id	uuid	Primary key
-title	text	Book title
-author	text	Book author
+Column	 Type	   Description
+id	     uuid	   Primary key
+title	   text	   Book title
+author	 text	   Book author
 total_copies	int	Total copies in library
 available_copies	int	Currently available copies
 users Table
